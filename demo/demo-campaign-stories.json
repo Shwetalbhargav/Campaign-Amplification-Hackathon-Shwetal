@@ -1,0 +1,134 @@
+[
+  {
+    "id": "68fe4c33-944a-5bd3-9aeb-3475c79266ce",
+    "campaign_id": "f15eb368-49d2-5ad9-b777-f05cafc6d2f3",
+    "section_type": "html",
+    "heading": null,
+    "body": "<p>Thirty schools in this county still draw drinking water through service lines installed before 1970. Testing last spring found elevated lead in eleven of them.</p><p>The replacement programme is already funded at the state level, but districts have to apply, and most do not have the grant staff to do it. This campaign pays for the outreach that gets those applications filed before the deadline.</p>",
+    "asset_id": null,
+    "caption": null,
+    "image_credit": null,
+    "display_order": 0
+  },
+  {
+    "id": "e198e9a1-b71f-58a6-8dcb-6bec850d2d18",
+    "campaign_id": "f15eb368-49d2-5ad9-b777-f05cafc6d2f3",
+    "section_type": "html",
+    "heading": null,
+    "body": "<p>The money to fix this already exists. What is missing is anyone telling the districts it is there.</p>",
+    "asset_id": null,
+    "caption": null,
+    "image_credit": null,
+    "display_order": 1
+  },
+  {
+    "id": "13ee8868-120f-5679-8bb0-70df3144303b",
+    "campaign_id": "71cf3fd2-68c3-5d59-bc65-50a9a9143525",
+    "section_type": "html",
+    "heading": null,
+    "body": "<p>The current network was designed for a downtown that employed forty thousand people. It now employs eleven thousand. Meanwhile the warehouse and hospital corridor on the ring road employs twenty-six thousand, and is served by two buses an hour.</p><p>The transit authority has a redesign sitting in a drawer. It needs public comment to move.</p>",
+    "asset_id": null,
+    "caption": null,
+    "image_credit": null,
+    "display_order": 0
+  },
+  {
+    "id": "dc028dfa-ed47-5f75-bc0a-ed88e2ecbf37",
+    "campaign_id": "71cf3fd2-68c3-5d59-bc65-50a9a9143525",
+    "section_type": "html",
+    "heading": null,
+    "body": "<p>A redesign costs nothing to adopt. It is the same buses, the same drivers, a different map.</p>",
+    "asset_id": null,
+    "caption": null,
+    "image_credit": null,
+    "display_order": 1
+  },
+  {
+    "id": "964d3980-8e84-57aa-b017-8e53a18daae5",
+    "campaign_id": "86080c63-d23e-5845-bb29-50b75125c8cb",
+    "section_type": "html",
+    "heading": null,
+    "body": "<p>Modern agricultural equipment refuses to run after some repairs until a dealer technician connects and authorises the part. During harvest, the wait for that technician averages eleven days.</p><p>Four states have passed right-to-repair laws covering farm equipment. A fifth bill is in committee here.</p>",
+    "asset_id": null,
+    "caption": null,
+    "image_credit": null,
+    "display_order": 0
+  },
+  {
+    "id": "2dced602-b30b-572f-bd38-0957f766949a",
+    "campaign_id": "86080c63-d23e-5845-bb29-50b75125c8cb",
+    "section_type": "html",
+    "heading": null,
+    "body": "<p>This is not anti-manufacturer. It is about who holds the key to equipment someone already bought.</p>",
+    "asset_id": null,
+    "caption": null,
+    "image_credit": null,
+    "display_order": 1
+  },
+  {
+    "id": "8a1c4556-492e-5ba9-9128-31828a8e4931",
+    "campaign_id": "ebad5379-ce0d-5a24-bfb6-af4988d6f9d1",
+    "section_type": "html",
+    "heading": null,
+    "body": "<p>Under the current operating agreement the shelter empties at 7am regardless of conditions. On freeze-warning mornings, emergency services log an average of nine cold-exposure calls between 7am and noon.</p><p>Keeping the doors open on those mornings costs roughly $340. A single ambulance transport costs more.</p>",
+    "asset_id": null,
+    "caption": null,
+    "image_credit": null,
+    "display_order": 0
+  },
+  {
+    "id": "697c66f4-e774-5329-bad7-e82f96304783",
+    "campaign_id": "ebad5379-ce0d-5a24-bfb6-af4988d6f9d1",
+    "section_type": "html",
+    "heading": null,
+    "body": "<p>The cheaper option and the humane option are the same option here, which is rarer than it should be.</p>",
+    "asset_id": null,
+    "caption": null,
+    "image_credit": null,
+    "display_order": 1
+  },
+  {
+    "id": "f4c65460-ae03-586e-9cda-a604ed61657a",
+    "campaign_id": "b0fa249c-543c-566d-9aff-0d0a1514e205",
+    "section_type": "html",
+    "heading": null,
+    "body": "<p>An independent readability analysis of the last county ballot put five of seven measures above a college reading level, and two above graduate level.</p><p>Nine states require a plain-language summary alongside the legal text. Adopting the same standard here needs a single administrative rule change.</p>",
+    "asset_id": null,
+    "caption": null,
+    "image_credit": null,
+    "display_order": 0
+  },
+  {
+    "id": "087a4afb-edcf-5e10-9859-75c6ed538d11",
+    "campaign_id": "b0fa249c-543c-566d-9aff-0d0a1514e205",
+    "section_type": "html",
+    "heading": null,
+    "body": "<p>A ballot nobody can read is a turnout problem disguised as a drafting problem.</p>",
+    "asset_id": null,
+    "caption": null,
+    "image_credit": null,
+    "display_order": 1
+  },
+  {
+    "id": "05a30234-58f0-5bd4-b87e-ec14a4e8210f",
+    "campaign_id": "e64909cf-e75e-5f50-a6cf-2aaff952a4d6",
+    "section_type": "html",
+    "heading": null,
+    "body": "<p>Thermal mapping last August found an 11C spread in surface temperature between the shadiest and least-shaded blocks. The least-shaded are concentrated in four neighbourhoods.</p><p>The canopy budget is allocated evenly across nine districts, which means the hottest blocks receive the same funding as the coolest.</p>",
+    "asset_id": null,
+    "caption": null,
+    "image_credit": null,
+    "display_order": 0
+  },
+  {
+    "id": "23efcede-0b0b-54a8-9948-9bc1bbeb2a18",
+    "campaign_id": "e64909cf-e75e-5f50-a6cf-2aaff952a4d6",
+    "section_type": "html",
+    "heading": null,
+    "body": "<p>Even distribution and fair distribution are not the same thing when the starting points differ this much.</p>",
+    "asset_id": null,
+    "caption": null,
+    "image_credit": null,
+    "display_order": 1
+  }
+]

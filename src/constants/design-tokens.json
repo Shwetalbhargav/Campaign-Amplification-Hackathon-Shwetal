@@ -1,0 +1,89 @@
+{
+  "source_url": "https://campaign-one-pearl.vercel.app/",
+  "evidence": [
+    "reports/raw/home.html",
+    "reports/raw/styles.css",
+    "reports/raw/pages.json"
+  ],
+  "verified": true,
+  "site_name": "Campaigns",
+  "logo_url": null,
+  "logo_note": "Header uses text Campaigns; no separate logo image verified.",
+  "favicon_url": "https://campaign-one-pearl.vercel.app/favicon.svg",
+  "colors": {
+    "primary": "#4f46e5",
+    "secondary": "#4338ca",
+    "background": "#f8fafc",
+    "dark_background": "#0b1120",
+    "text": "#0f172a",
+    "muted": "#64748b",
+    "surface": "#ffffff"
+  },
+  "typography": {
+    "heading_font": "Plus Jakarta Sans",
+    "body_font": "Inter",
+    "icon_font": "Material Symbols Outlined",
+    "font_files_downloaded": false
+  },
+  "border_radius": {
+    "campaign_card_px": 16,
+    "details_px": 14,
+    "back_button_px": 14
+  },
+  "button": {
+    "selector": ".ue216 .ue-back-btn",
+    "min_height_px": 52,
+    "font_weight": 800,
+    "font_size_px": 17,
+    "background": "#4f46e5",
+    "color": "#ffffff",
+    "border_radius_px": 14
+  },
+  "card": {
+    "selector": ".ue216 .ue-card",
+    "border": "1px solid var(--ue-border)",
+    "background": "#ffffff",
+    "border_radius_px": 16,
+    "shadow": "0 2px 8px rgba(15, 23, 42, .07)"
+  },
+  "css_variables": {
+    "--ue-navy": "#0f172a",
+    "--ue-blue": "#4f46e5",
+    "--ue-blue-mid": "#4338ca",
+    "--ue-muted": "#64748b",
+    "--ue-body": "#475569",
+    "--ue-border": "#e2e8f0",
+    "--ue-soft": "#eef2ff",
+    "--ue-soft-border": "#e0e7ff",
+    "--ue-surface": "#f8fafc",
+    "--ue-warn-bg": "#fffbeb",
+    "--ue-warn-border": "#fde68a",
+    "--ue-warn-icon": "#d97706",
+    "--ue-green": "#047857",
+    "--ue-shadow": "0 2px 8px rgba(15, 23, 42, .07)"
+  },
+  "computed_samples": {
+    "body": {
+      "fontFamily": "Inter, \"Plus Jakarta Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif",
+      "color": "rgb(15, 23, 42)",
+      "backgroundColor": "rgb(248, 250, 252)",
+      "borderRadius": "0px",
+      "padding": "0px"
+    },
+    "h1": {
+      "fontFamily": "\"Plus Jakarta Sans\", Inter, -apple-system, sans-serif",
+      "color": "rgb(15, 23, 42)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "padding": "0px"
+    },
+    "button": {
+      "fontFamily": "Inter, \"Plus Jakarta Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(255, 255, 255, 0.14)",
+      "borderRadius": "9999px",
+      "padding": "0px"
+    },
+    "article": null
+  }
+}

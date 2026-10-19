@@ -1,0 +1,178 @@
+[
+  {
+    "id": "0c3fd123-7bed-5675-ba2d-b6129e5eecfb",
+    "name": "Art",
+    "slug": "art",
+    "description": null,
+    "icon_name": "palette",
+    "display_order": 0
+  },
+  {
+    "id": "96ad10e4-70ed-5737-9c8f-50f0f4195981",
+    "name": "Civic",
+    "slug": "civic",
+    "description": null,
+    "icon_name": "account_balance",
+    "display_order": 1
+  },
+  {
+    "id": "f7e53d48-1412-514e-bfbf-ab1530b79ea0",
+    "name": "Community",
+    "slug": "community",
+    "description": null,
+    "icon_name": "groups",
+    "display_order": 2
+  },
+  {
+    "id": "f04e012c-1174-587e-850b-b4bb2a424856",
+    "name": "Consumer",
+    "slug": "consumer",
+    "description": null,
+    "icon_name": "shopping_cart",
+    "display_order": 3
+  },
+  {
+    "id": "5b534232-1a09-5d8b-877a-db8392c20aab",
+    "name": "Economic Policy",
+    "slug": "economicPolicy",
+    "description": null,
+    "icon_name": "trending_up",
+    "display_order": 4
+  },
+  {
+    "id": "4fd7ae64-c488-5ca7-a0b8-99369eb9f2e7",
+    "name": "Education",
+    "slug": "education",
+    "description": null,
+    "icon_name": "school",
+    "display_order": 5
+  },
+  {
+    "id": "8c2c662f-ab49-5e84-9349-4ab9ab81ddc1",
+    "name": "Environment",
+    "slug": "environment",
+    "description": null,
+    "icon_name": "eco",
+    "display_order": 6
+  },
+  {
+    "id": "0c41491b-a0e3-5e40-ad1e-2a6220e5076e",
+    "name": "Food & Beverage",
+    "slug": "foodBeverage",
+    "description": null,
+    "icon_name": "restaurant",
+    "display_order": 7
+  },
+  {
+    "id": "2bbe7283-7812-5303-b3e8-00dd2772b6be",
+    "name": "Geopolitical",
+    "slug": "geopolitical",
+    "description": null,
+    "icon_name": "public",
+    "display_order": 8
+  },
+  {
+    "id": "54866b36-c0f1-565e-a622-f11311cb70af",
+    "name": "Health",
+    "slug": "health",
+    "description": null,
+    "icon_name": "local_hospital",
+    "display_order": 9
+  },
+  {
+    "id": "75b4ad29-9f63-5501-899b-748e8f2c626f",
+    "name": "Journalism",
+    "slug": "journalism",
+    "description": null,
+    "icon_name": "article",
+    "display_order": 10
+  },
+  {
+    "id": "735258a2-58eb-5322-b1f1-c21da088d5cc",
+    "name": "Local Business",
+    "slug": "localBusiness",
+    "description": null,
+    "icon_name": "store",
+    "display_order": 11
+  },
+  {
+    "id": "f9ec0a71-c57e-5db1-8bfd-a7818f172416",
+    "name": "Music",
+    "slug": "music",
+    "description": null,
+    "icon_name": "music_note",
+    "display_order": 12
+  },
+  {
+    "id": "49dc62d8-1051-5572-b860-285afae62bf1",
+    "name": "News",
+    "slug": "news",
+    "description": null,
+    "icon_name": "newspaper",
+    "display_order": 13
+  },
+  {
+    "id": "379c4a97-13b8-594f-b5b4-6dff1c371d62",
+    "name": "Non-profit",
+    "slug": "nonprofit",
+    "description": null,
+    "icon_name": "volunteer_activism",
+    "display_order": 14
+  },
+  {
+    "id": "9d28fc44-fd49-5a1f-969e-4ad8348954b7",
+    "name": "Other",
+    "slug": "other",
+    "description": null,
+    "icon_name": "category",
+    "display_order": 15
+  },
+  {
+    "id": "0702b144-bafd-56d0-909d-44c5205bd103",
+    "name": "Politics",
+    "slug": "politics",
+    "description": null,
+    "icon_name": "how_to_vote",
+    "display_order": 16
+  },
+  {
+    "id": "68dc8aac-1863-5961-95ee-87275c9bb656",
+    "name": "Public Policy",
+    "slug": "publicPolicy",
+    "description": null,
+    "icon_name": "gavel",
+    "display_order": 17
+  },
+  {
+    "id": "1f6b1e6c-0268-57fe-8642-5fe49d17d66f",
+    "name": "Safety",
+    "slug": "safety",
+    "description": null,
+    "icon_name": "shield",
+    "display_order": 18
+  },
+  {
+    "id": "65ec49f9-9d17-5c5f-b5d2-9750b3a06cd0",
+    "name": "Science",
+    "slug": "science",
+    "description": null,
+    "icon_name": "science",
+    "display_order": 19
+  },
+  {
+    "id": "487cd19b-ba2c-5f4b-96b3-f37a4601bd85",
+    "name": "Sports",
+    "slug": "sports",
+    "description": null,
+    "icon_name": "sports_soccer",
+    "display_order": 20
+  },
+  {
+    "id": "c9ad848d-7e0b-5bfe-bde3-bbffaad14eec",
+    "name": "Technology",
+    "slug": "technology",
+    "description": null,
+    "icon_name": "computer",
+    "display_order": 21
+  }
+]

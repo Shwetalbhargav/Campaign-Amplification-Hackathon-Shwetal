@@ -1,0 +1,24 @@
+{
+  "engine": "PGlite PostgreSQL WASM (local, not Supabase)",
+  "checks": [
+    "PostgreSQL parses and executes schema, RLS policies and seed",
+    "All JSON, evidence links, manifest hashes and foreign keys validate",
+    "All normalized website demo records insert with relational constraints",
+    "Creator creates an owned draft through RPC",
+    "Anonymous sees six approved campaigns and no drafts, reviews, payments or notifications",
+    "Other users cannot read or alter another creator draft",
+    "Reviewer cannot browse unsubmitted drafts",
+    "Clients cannot change totals, ownership, status, feature flags or source provenance",
+    "Submission materializes story and source, locks creator editing and remains private",
+    "Only a reviewer can approve, then public story becomes visible",
+    "Backer sees only own contributions and cannot read payment references",
+    "Trusted simulated payment increments funding once across retries",
+    "Guest receipt tokens are server-only and responses omit private payment data",
+    "Financial and lifecycle constraints reject invalid data",
+    "Saved campaigns, follows and notifications remain user scoped",
+    "Private Storage policy hides unpublished campaign media",
+    "Validator rejects duplicate slugs and broken asset associations",
+    "Administrative dry runs preserve source JSON byte for byte"
+  ],
+  "passed": 18
+}

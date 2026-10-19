@@ -1,0 +1,210 @@
+{
+  "site_name": "Campaigns",
+  "base_url": "https://campaign-one-pearl.vercel.app/",
+  "extracted_on": "2026-10-19",
+  "purpose": "Community-funded advertising distribution and message amplification; not charitable donations",
+  "public_campaign_records": 6,
+  "verified_real_campaigns": 0,
+  "website_demo_campaigns": 6,
+  "category_count": 22,
+  "campaign_dataset": "demo/demo-campaigns.json",
+  "robots": "/robots.txt returned the SPA HTML, not a robots directive file",
+  "access_method": "HTTP public HTML/CSS/JS plus anonymous Playwright rendering and the same public campaign listing fetch used by the page",
+  "provenance_file": "reports/provenance.json",
+  "media_manifest": "reports/media-manifest.json",
+  "auth_users_created": false,
+  "missing_fields": [
+    "verified creator identity",
+    "real publication dates",
+    "fixed funding deadline",
+    "verified source titles",
+    "verified estimated reach range",
+    "measured distribution performance",
+    "copyright licenses",
+    "separate image logo"
+  ],
+  "not_imported": [
+    "synthetic trust scores",
+    "relative runtime dates",
+    "NaN/undefined impact metrics",
+    "private/admin demo records",
+    "guest receipts",
+    "payment references"
+  ],
+  "pages": [
+    {
+      "url": "https://campaign-one-pearl.vercel.app/",
+      "title": "Campaign - Community-Funded Ads",
+      "text_snapshot": "reports/raw/pages.json"
+    },
+    {
+      "url": "https://campaign-one-pearl.vercel.app/explore-campaigns",
+      "title": "Explore Campaigns | Campaigns",
+      "text_snapshot": "reports/raw/pages.json"
+    },
+    {
+      "url": "https://campaign-one-pearl.vercel.app/faq",
+      "title": "Help Center | Campaigns",
+      "text_snapshot": "reports/raw/pages.json"
+    },
+    {
+      "url": "https://campaign-one-pearl.vercel.app/policies",
+      "title": "Policies | Campaigns",
+      "text_snapshot": "reports/raw/pages.json"
+    },
+    {
+      "url": "https://campaign-one-pearl.vercel.app/how-we-review-campaigns",
+      "title": "How We Review Campaigns | Campaigns",
+      "text_snapshot": "reports/raw/pages.json"
+    },
+    {
+      "url": "https://campaign-one-pearl.vercel.app/why-fund-a-campaign",
+      "title": "Why Fund a Campaign | Campaigns",
+      "text_snapshot": "reports/raw/pages.json"
+    },
+    {
+      "url": "https://campaign-one-pearl.vercel.app/how-you-make-impact",
+      "title": "How you make impact \u00e2\u20ac\u201d Campaign",
+      "text_snapshot": "reports/raw/pages.json"
+    },
+    {
+      "url": "https://campaign-one-pearl.vercel.app/login",
+      "title": "Log In | Campaigns",
+      "text_snapshot": "reports/raw/pages.json"
+    },
+    {
+      "url": "https://campaign-one-pearl.vercel.app/campaign/school-water-stations",
+      "title": "Clean drinking water in every public school | Campaigns",
+      "text_snapshot": "reports/raw/pages.json"
+    },
+    {
+      "url": "https://campaign-one-pearl.vercel.app/campaign/cmp-clean-water/audience",
+      "title": "Clean drinking water in every public school | Campaigns",
+      "text_snapshot": "reports/raw/pages.json"
+    },
+    {
+      "url": "https://campaign-one-pearl.vercel.app/campaign/cmp-clean-water/report",
+      "title": "Campaigns - Community-Funded Ad Campaigns",
+      "text_snapshot": "reports/raw/pages.json"
+    },
+    {
+      "url": "https://campaign-one-pearl.vercel.app/campaign/cmp-clean-water/impact",
+      "title": "Campaigns - Community-Funded Ad Campaigns",
+      "text_snapshot": "reports/raw/pages.json"
+    },
+    {
+      "url": "https://campaign-one-pearl.vercel.app/campaign/redraw-the-bus-network",
+      "title": "Redraw the bus network around where people actually work | Campaigns",
+      "text_snapshot": "reports/raw/pages.json"
+    },
+    {
+      "url": "https://campaign-one-pearl.vercel.app/campaign/cmp-transit-map/audience",
+      "title": "Redraw the bus network around where people actually work | Campaigns",
+      "text_snapshot": "reports/raw/pages.json"
+    },
+    {
+      "url": "https://campaign-one-pearl.vercel.app/campaign/cmp-transit-map/report",
+      "title": "Campaigns - Community-Funded Ad Campaigns",
+      "text_snapshot": "reports/raw/pages.json"
+    },
+    {
+      "url": "https://campaign-one-pearl.vercel.app/campaign/cmp-transit-map/impact",
+      "title": "Campaigns - Community-Funded Ad Campaigns",
+      "text_snapshot": "reports/raw/pages.json"
+    },
+    {
+      "url": "https://campaign-one-pearl.vercel.app/campaign/right-to-repair-farm-equipment",
+      "title": "Let farmers repair the equipment they own | Campaigns",
+      "text_snapshot": "reports/raw/pages.json"
+    },
+    {
+      "url": "https://campaign-one-pearl.vercel.app/campaign/cmp-repair-right/audience",
+      "title": "Let farmers repair the equipment they own | Campaigns",
+      "text_snapshot": "reports/raw/pages.json"
+    },
+    {
+      "url": "https://campaign-one-pearl.vercel.app/campaign/cmp-repair-right/report",
+      "title": "Campaigns - Community-Funded Ad Campaigns",
+      "text_snapshot": "reports/raw/pages.json"
+    },
+    {
+      "url": "https://campaign-one-pearl.vercel.app/campaign/cmp-repair-right/impact",
+      "title": "Campaigns - Community-Funded Ad Campaigns",
+      "text_snapshot": "reports/raw/pages.json"
+    },
+    {
+      "url": "https://campaign-one-pearl.vercel.app/campaign/winter-shelter-hours",
+      "title": "Keep the winter shelter open past 7am | Campaigns",
+      "text_snapshot": "reports/raw/pages.json"
+    },
+    {
+      "url": "https://campaign-one-pearl.vercel.app/campaign/cmp-night-shelter/audience",
+      "title": "Keep the winter shelter open past 7am | Campaigns",
+      "text_snapshot": "reports/raw/pages.json"
+    },
+    {
+      "url": "https://campaign-one-pearl.vercel.app/campaign/cmp-night-shelter/report",
+      "title": "Campaigns - Community-Funded Ad Campaigns",
+      "text_snapshot": "reports/raw/pages.json"
+    },
+    {
+      "url": "https://campaign-one-pearl.vercel.app/campaign/cmp-night-shelter/impact",
+      "title": "Campaigns - Community-Funded Ad Campaigns",
+      "text_snapshot": "reports/raw/pages.json"
+    },
+    {
+      "url": "https://campaign-one-pearl.vercel.app/campaign/plain-language-ballots",
+      "title": "Write ballot measures at a tenth-grade reading level | Campaigns",
+      "text_snapshot": "reports/raw/pages.json"
+    },
+    {
+      "url": "https://campaign-one-pearl.vercel.app/campaign/cmp-ballot-plain/audience",
+      "title": "Write ballot measures at a tenth-grade reading level | Campaigns",
+      "text_snapshot": "reports/raw/pages.json"
+    },
+    {
+      "url": "https://campaign-one-pearl.vercel.app/campaign/cmp-ballot-plain/report",
+      "title": "Campaigns - Community-Funded Ad Campaigns",
+      "text_snapshot": "reports/raw/pages.json"
+    },
+    {
+      "url": "https://campaign-one-pearl.vercel.app/campaign/cmp-ballot-plain/impact",
+      "title": "Campaigns - Community-Funded Ad Campaigns",
+      "text_snapshot": "reports/raw/pages.json"
+    },
+    {
+      "url": "https://campaign-one-pearl.vercel.app/campaign/shade-where-it-is-hottest",
+      "title": "Plant the shade where the heat actually is | Campaigns",
+      "text_snapshot": "reports/raw/pages.json"
+    },
+    {
+      "url": "https://campaign-one-pearl.vercel.app/campaign/cmp-tree-canopy/audience",
+      "title": "Plant the shade where the heat actually is | Campaigns",
+      "text_snapshot": "reports/raw/pages.json"
+    },
+    {
+      "url": "https://campaign-one-pearl.vercel.app/campaign/cmp-tree-canopy/report",
+      "title": "Campaigns - Community-Funded Ad Campaigns",
+      "text_snapshot": "reports/raw/pages.json"
+    },
+    {
+      "url": "https://campaign-one-pearl.vercel.app/campaign/cmp-tree-canopy/impact",
+      "title": "Campaigns - Community-Funded Ad Campaigns",
+      "text_snapshot": "reports/raw/pages.json"
+    },
+    {
+      "url": "https://campaign-one-pearl.vercel.app/policies",
+      "title": "Policies | Campaigns",
+      "text_snapshot": "reports/raw/pages.json"
+    },
+    {
+      "url": "https://campaign-one-pearl.vercel.app/policies#expanded-policies",
+      "title": null,
+      "text_snapshot": "reports/raw/pages.json"
+    }
+  ],
+  "collection_status": "stopped_terms_prohibit_scraping",
+  "terms_source": "reports/raw/pages.json#/policies#expanded-policies",
+  "content_reuse_permission": "unverified",
+  "media_reuse_permission": "unverified"
+}

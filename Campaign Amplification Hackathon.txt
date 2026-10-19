@@ -1,0 +1,468 @@
+Campaign Amplification Hackathon 
+Core Challenge: Build a polished, functional mobile prototype that helps people create, review, fund, and amplify messages so they can reach audiences beyond their existing networks.
+Use the reference website to understand the product concept and journey. The attached task brief provides the detailed requirements. Your job is to translate the workflow into an excellent mobile-first experience; not to reproduce a desktop website screen-for-screen.
+Task Overview
+The Campaign Amplification Platform is a community-funded advertising and message-amplification product. Individuals, creators, nonprofits, organizations, businesses, and community groups can create campaigns around messages they want more people to see. The platform reviews eligible campaigns, backers pool contributions toward distribution costs, and approved funds are used to promote the message to audiences beyond the creator’s existing network.
+This is not a donation platform. A contribution supports the distribution and reach of a campaign message; it does not directly fund the cause, person, or organization described in that message.
+The goal of this hackathon is to build a functional mobile application prototype that demonstrates the core product journey:
+Discovering campaigns
+Understanding campaign stories and supporting sources
+Creating and submitting campaigns
+Contributing toward campaign promotion
+Tracking funding and distribution progress
+Viewing campaign reports
+This is not about building a production-scale advertising platform in a short time.
+It is about clarity of product thinking, clean UI/UX, strong backend logic, and smooth execution.
+The interface should feel simple; the underlying workflow should remain complete.
+ What You Need to Build
+Create a working mobile application prototype for the Campaign Amplification Platform that covers the core flows described below.
+Your prototype should feel like one connected product—not a landing-page mockup or a collection of disconnected screens.
+Scope Rules (Important)
+A mobile application prototype is required. Use React Native with Expo.
+UI/UX quality is a critical part of the challenge. Visual polish alone is not enough: navigation, information hierarchy, readability, feedback, and clarity of the next action matter just as much.
+Preserve the product’s core concept: users contribute toward promoting a message, not donating directly to the cause.
+The key journey should work end-to-end, including campaign creation, draft saving, review status, campaign discovery, contribution flow, and progress tracking.
+Use a five-step campaign creation flow in the specified order: Basics → Story → Campaign & Ad Visuals → Reach → Submit.
+Do not insert unnecessary setup screens between these five steps.
+Allow users to browse campaigns without creating an account.
+Applicants may add thoughtful features if they improve trust, usability, accessibility, or the core product experience.
+Additional features should not distract from completing the primary journey.
+Use the provided website and attached task document as references while making deliberate mobile-first design decisions.
+ Application Structure
+Use a stable bottom navigation bar with five primary destinations.
+Reference Website: https://campaign-one-pearl.vercel.app/
+1. Home
+Product introduction
+Featured campaigns
+Campaign feed
+A concise explanation of how the platform works
+2. Explore
+Search
+Campaign categories
+Sorting and filters
+Campaign discovery
+3. Create
+Start a new campaign
+Resume a saved draft
+4. Activity
+Notifications
+Funding milestones
+Campaign updates
+Followed campaigns
+Relevant campaign progress
+5. Profile
+Account details
+Created campaigns
+Backed campaigns
+Saved campaigns
+Payment history
+Account settings and help
+Keep primary navigation consistent throughout the app. Use contextual actions and clear back navigation instead of deep, confusing menu structures.
+Provide secondary destinations for Partners, About, How It Works, FAQs, Help, Contact, Terms, Privacy, and Community Guidelines where appropriate.
+ User Roles
+1. Audience
+People who discover a campaign, read its story, inspect its sources, understand the intended audience, share it, and provide feedback.
+They must be able to browse campaigns without creating an account.
+2. Campaign Creator
+An individual, influencer, nonprofit, organization, business, or community group that wants to distribute a message to a wider audience.
+Creators can:
+Build campaigns manually
+Use AI-assisted drafting
+Describe their campaign through a voice-based creation experience
+Edit campaign drafts
+Submit campaigns for review
+Monitor funding
+View distribution reports
+3. Backer
+A person who contributes toward the cost of promoting a campaign.
+Before contributing, backers should understand:
+The campaign message and story
+Supporting sources
+How their contribution will be used
+Estimated audience reach
+Applicable fees
+Campaign funding progress
+Public backer names should be private by default, while payment records remain accurate and compliant.
+4. Platform Administrator / Reviewer 
+An internal role that reviews campaign content and sources, checks creative assets and targeting, approves eligible campaigns, prepares distribution, manages campaign states, and monitors reporting and moderation.
+This role is essential because approved funds are managed for message distribution rather than simply transferred to creators.
+One account may act as an audience member, a campaign creator, and a backer.
+ Core Flow 1: Home
+The Home screen should immediately explain the platform’s central promise: helping important messages travel beyond their creators’ existing social networks.
+Hero Section
+Include:
+A clear headline and short explanation of community-funded reach
+Primary actions: Explore Campaigns and Start a Campaign
+An illustrative reach estimate per dollar, driven by configurable demo assumptions and clearly labelled as an estimate; not a guarantee
+Campaign Feed
+Display realistic sample campaigns from different categories and creator types.
+Each campaign card should include:
+Cover image or campaign creative
+Category
+Campaign title
+Creator or organization name
+Short editorial summary
+Amount raised and funding goal
+Funding progress indicator
+Estimated audience reach at the goal
+A clear Back This Campaign action
+How It Works
+Explain the core sequence visually and in plain language:
+Create → Review → Amplify
+Creators prepare the message(Campaign). The platform reviews the content(Campaign) and prepares it for distribution. Backers contribute toward expanding the message’s reach.
+ Core Flow 2: Explore Campaigns
+Build a dedicated campaign discovery experience with search, category browsing, featured campaigns, sorting, and useful filters.
+Suggested categories:
+Environment
+Health
+Science
+Education
+Public Policy
+Economic Policy
+Community
+Arts & Culture
+Business
+Other
+Campaign cards should communicate the message, creator, funding progress, and estimated reach at a glance.
+Use a consistent visual system with readable titles, compact summaries, useful metadata, and one clear primary action.
+Include thoughtful:
+Loading states
+Empty states
+Error states
+No-results states
+Search and filters should actually change the displayed results, even if the underlying campaign data is seeded demo data.
+ Core Flow 3: Campaign Creation
+Campaign creation is the most important creator workflow.
+Implement all five steps in their existing order, with a persistent five-step progress indicator and automatic draft saving.
+Creation Entry
+Present two ways to start a campaign.
+Create Manually
+A guided step-by-step form with instructions and a full preview before submission.
+Create with Your Voice
+The creator describes the idea aloud and answers guided questions. Speech-to-text and AI assistance can populate draft fields.
+The creator must land on an editable draft before submission.
+AI suggestions must never prevent the creator from editing, correcting, or deleting content. If voice or AI services are unavailable, provide a clear demo mode or manual fallback.
+Step 1 — Basics
+Let the creator describe:
+What the campaign is about
+Who the message should reach
+Why it matters
+What evidence supports it
+Fields
+Campaign title — required, maximum 60 characters, with a character counter
+Category — required selection
+Creator or organization name — required
+Short summary
+Optional cover image
+Save as Draft
+Continue
+Explain that the beginning of the title may be used as an advertising headline if a custom headline is not supplied.
+When requested, AI may propose a title, summary, category, creator description, and relevant draft fields.
+Step 2 — Story
+Build an editorial-style story composer that feels like writing a clear article rather than completing a complicated business form.
+Include:
+Headline and introductory text
+Story sections
+Rich-text editing or a simplified formatting toolbar
+Ability to add and rearrange content sections
+Image upload and preview
+Captions and image credits
+Statistics
+Supporting evidence and source management
+Source title and URL
+Suggested audience actions
+Live campaign preview
+Draft saving
+Preserve the story structure on the published campaign page.
+Sources must remain visible to audiences, not hidden exclusively in the creator dashboard.
+Step 3 — Campaign & Ad Visuals
+Keep the main editorial story separate from the creative assets used to advertise it.
+Include:
+Campaign cover image
+Advertising images
+Video creatives where supported
+Ad headline
+Ad description
+Call-to-action text
+Previews for supported advertising placements
+Uploading existing assets
+Supported image-generation tools
+Basic file validation
+Warnings for missing assets
+An optional creative-quality feedback prompt where appropriate
+Step 4 — Reach
+Explain how the campaign is intended to find an audience.
+Include:
+Target geographic locations
+Audience characteristics and interests, where supported
+Available distribution channels
+Advertising budget allocation
+Campaign duration
+An audience preview showing who the campaign is intended to reach and How it may appear
+Clearly distinguish user-selected settings from settings that the platform may finalize during review.
+Never promise a fixed audience size. Actual reach depends on advertising inventory, prices, targeting, delivery, and performance.
+Step 5 — Submit
+Before submission, show a complete campaign preview including:
+Campaign title and summary
+Creator identity
+Story and supporting sources
+Campaign and advertising visuals
+Intended audience and distribution settings
+Funding goal
+Estimated audience reach
+Campaign duration
+Applicable fees and funding policies
+The creator sets the funding goal at this stage. It must not be generated automatically by AI or silently overwritten by earlier steps.
+Require confirmation of the applicable campaign rules and submission policies.
+Primary Actions
+Back
+Save as Draft
+Preview Campaign
+Submit for Review
+After submission, show a confirmation screen and a status timeline describing the next steps.
+Campaign Creation Requirements
+At every stage:
+Preserve form state when navigating backward.
+Save drafts automatically and allow creators to resume later.
+Show required fields and clear validation errors.
+Keep the five-step progress indicator visible.
+Clearly distinguish editing, previewing, and submitting states.
+Do not insert unnecessary setup screens between the five steps.
+ Core Flow 4: Campaign Detail Page
+The campaign detail page is central to both audience and backer experiences.
+Treat it as a rich, readable editorial page with funding and reach information accessible without overwhelming the story.
+Campaign Header
+Display:
+Back navigation to Explore
+Cover image
+Campaign category
+Campaign title
+Creator name or organization
+Publication or submission date
+Share action
+Campaign status where relevant
+Story & Sources
+Render headings, paragraphs, photographs, captions, statistics, and source references with readable typography, comfortable line lengths, and consistent spacing.
+Present images in context rather than placing every image in a separate gallery.
+Campaign Progress
+Display:
+Amount raised
+Funding goal
+Percentage funded
+Time remaining, where applicable
+Estimated reach
+Back This Campaign action
+Share Campaign action
+Keep the funding panel accessible while scrolling without obscuring the story.
+Any sample figures are demonstration data and must be clearly labelled. Reach estimates should be based on the prototype’s configured assumptions.
+Use of Funds
+Provide an expandable explanation of:
+Platform fees
+The portion available for advertising
+Allocation policies
+Refund conditions
+Treatment of unspent funds
+Explicitly state that the contribution funds distribution of the message, not direct charitable support for the cause.
+Audience & Distribution
+Explain the intended audience, targeting choices, supported placements, and distribution approach.
+Include relevant privacy and advertising disclosures.
+Review, Trust & Feedback
+Provide expandable sections for:
+The review process
+Supporting sources
+Relevant verification information
+Distribution partners, where applicable
+Never invent a trust score or claim independent verification unless the process supports it.
+Where appropriate, ask whether the visuals encouraged the reader to continue and whether the message changed their mind, with options such as No, Somewhat, and Yes.
+Comments and replies may be included if moderation, reporting, and privacy controls are supported.
+ Core Flow 5: Back a Campaign
+Create a transparent, fast, and trustworthy contribution journey.
+Step 1: Inspect the Campaign
+The backer can read the story, sources, funding information, intended audience, and use-of-funds explanation.
+Step 2: Choose a Contribution
+Provide preset contribution amounts.
+Allow a custom amount.
+Update estimated reach dynamically using the campaign’s configured estimate model.
+Step 3: Review Contribution
+Show:
+Contribution amount
+Applicable transaction or platform fees
+Total payment
+Estimated reach associated with the contribution, where calculable
+Campaign funding progress
+Relevant terms and refund information
+Explain that the contribution is for campaign amplification rather than direct support for the cause.
+Step 4: Complete Payment
+Use a dummy payment provider for assignment. 
+Support guest contributions where permitted. Do not request unnecessary profile information.
+For a prototype without payment credentials, use a clearly labelled simulated checkout.
+Pending, rejected, cancelled, and failed states should be represented accurately.
+Step 5: Confirmation
+After a verified successful transaction, show:
+Payment confirmation
+Contribution amount
+Campaign title
+Receipt access
+Updated funding progress
+A way to share the campaign
+Step 6: Track the Campaign
+Allow backers to follow campaign progress, view updates, and inspect final campaign reports.
+Reports should distinguish funds raised, advertising spend, impressions, estimated or measured reach, clicks, and other metrics wherever available.
+ Core Flow 6: Creator Dashboard
+Campaign Overview
+For each campaign, display:
+Title and thumbnail
+Campaign status
+Funding progress
+Funding goal
+Deadline
+Estimated reach
+Provide filters or tabs for:
+Drafts
+Under Review
+Published / Funding
+Promoting
+Completed
+Requires Action
+Campaign Management
+Creators can:
+Edit drafts
+Preview campaigns
+View moderation feedback
+Respond to requests for changes
+Share campaign links
+View funding milestones and campaign updates
+Inspect promotion progress
+Access the final distribution report
+Published campaign content should have controlled editing rules. Material changes should return for appropriate review before advertising is updated.
+Analytics
+Show:
+Amount raised
+Funding progress
+Contributions and backer activity
+Advertising budget allocated and spent
+Estimated and measured reach
+Impressions and clicks, when available
+Campaign duration
+Final results
+Define metrics clearly and do not mix estimates with verified delivery statistics.
+ Core Flow 7: Activity & Notifications
+Create an in-app notification center. Push and email notifications are optional if time and infrastructure permit.
+Support the following events:
+Campaign submission received
+Campaign approved, rejected, or returned for edits
+Campaign becomes available for backing
+Funding milestone reached
+Campaign deadline approaching
+Contribution successful or unsuccessful
+Campaign promotion begins
+Meaningful distribution progress
+Campaign completed
+Final report available
+New comments or campaign updates
+Account security events
+Allow users to configure notification categories and delivery preferences where supported.
+Avoid repetitive, low-value notifications.
+Note: Admin & Campaign Review (Not Part of the Assignment)
+This section is included for conceptual understanding only. Implementing the admin and campaign review functionality is not required as part of this hackathon.
+A separate responsive internal web interface is acceptable for reviewers. It does not need to be a destination in the mobile app’s bottom navigation.
+At minimum, demonstrate the review logic through an admin screen or a role-restricted review view.
+Reviewers must be able to:
+Inspect submitted campaign drafts, stories, sources, images, advertising assets, targeting, and proposed budgets
+Approve eligible campaigns
+Request corrections
+Reject ineligible submissions
+Prepare and authorize advertising distribution
+Track funding and advertising delivery
+Handle reports, complaints, and moderation
+Review completion and reporting status
+Maintain an auditable history of moderation decisions and significant campaign changes
+A campaign must not be published or enter advertising distribution before required approvals are complete.
+ Campaign Lifecycle
+Implement a clear, state-driven workflow:
+Draft → Submitted for Review → Changes Requested or Approved → Available for Funding → Funding Goal Reached or Funding Period Ends → Distribution Preparation → Promoting → Completed
+Support exceptional states such as Rejected, Cancelled, Refund Pending, and Failed where applicable.
+Funding completion must not automatically imply that advertising has launched.
+Distribution begins only when required approval, payment, budget, and advertising setup conditions are met.
+ Design & UX Guidelines
+UI/UX is one of the most important evaluation areas.
+The product contains unfamiliar concepts—campaign funding, advertising distribution, estimated reach, review, and use of funds—so the interface must make them understandable without overwhelming people.
+The application should feel premium, calm, credible, readable, and easy to use.
+Use:
+Mobile-first layouts designed for real phone screens and one-handed use
+A consistent spacing scale
+Clean typography and restrained brand colors
+Consistent iconography, card styles, and interaction patterns
+Strong visual hierarchy so users understand each screen and its next action
+Rounded campaign cards and high-quality campaign imagery
+Clear progress indicators
+Expandable information sections
+Contextual explanations of unfamiliar concepts
+Smooth but purposeful transitions and subtle feedback
+Accessible contrast, readable text, and sufficiently large touch targets
+Clear form labels and validation messages
+Skeleton loading states and useful error messages
+Appropriate loading, empty, error, and success states
+Clear confirmation after saving, submitting, backing, or changing campaign status
+Different Screens Require Different Priorities
+Campaign Story Screens: Prioritize editorial readability, context, and visible sources.
+Backing Screens: Prioritize trust, use of funds, estimated reach, fees, and the contribution action.
+Creator Screens: Prioritize progress, saved work, validation, and the next required step.
+Do not fill every screen with charts, badges, cards, or decorative elements. Keep secondary details expandable and make the next action obvious.
+Avoid dead ends, inconsistent back behavior, unclear icons, and buttons that appear functional but do nothing.
+Make demo data visually credible and consistent across feeds, detail pages, funding progress, and dashboards.
+UX Test: A first-time user should be able to explain what the platform does, what their contribution pays for, and what happens next without needing a team member to guide them.
+ Technology Expectations
+The following is the recommended baseline. Teams may make sensible substitutions where needed, but must retain a working mobile prototype and a clear backend architecture.
+Mobile Application — Required
+React Native with Expo
+TypeScript is strongly recommended
+A consistent navigation solution and reusable components
+Design and testing for common mobile screen sizes
+Backend & APIs
+Node.js with a suitable framework such as Express or NestJS, or Python with FastAPI
+Clear APIs for authentication, campaigns, drafts, review states, contributions, activity, and reports
+Backend validation and role-based permissions
+Database & Infrastructure
+PostgreSQL can be used for core relational data such as users, campaigns, contributions, review decisions, and lifecycle states.
+Supabase or another managed database is acceptable.
+Authentication, AI, Payments & Advertising
+Dummy data is acceptable for demonstration, but major workflows must remain coherent.
+ Points to Note
+UI/UX: Clean, intuitive, trustworthy, and user-friendly design is critical. The experience should be easy to understand even for people unfamiliar with community-funded advertising.
+Product Thinking: Preserve the distinction between contributing to message amplification and donating directly to a cause. Explain funding, fees, estimated reach, review, and distribution clearly.
+Code Quality: Use a well-structured project, reusable components, sensible naming, and maintainable code.
+End-to-End Functionality: Campaign creation, saving, preview, submission, review, discovery, contribution, and progress tracking should work as one journey.
+State Handling: Include loading, empty, error, success, pending, and validation states for major flows.
+Security & Privacy: Validate data on the server, protect secrets, enforce role permissions, and avoid exposing private backer or payment details.
+Use of AI Tools: You may use Cursor or similar AI tools to improve productivity. Use them thoughtfully, review generated code, and take ownership of the result.
+Prototype Scope: This is a prototype, not a complete application. Focus on demonstrating your skills and the core concept. You do not need to complete every feature; do whatever you can within your capacity.
+App Submission: Submit an Android APK and a demo video. If requested for the final stage, prepare an iOS TestFlight build; the team may cooperate with this process.
+No Code Submission Required: Submitting source code is strictly not required. The task is intended solely for assessment purposes, allowing us to evaluate your approach, problem-solving skills, and implementation through a prototype demonstration.
+Discipline: Commitment, consistency, collaboration, respectful communication, and follow-through matter throughout the hackathon. Participants who stay engaged and give their best effort may receive a certificate of appreciation.
+ Submission Instructions
+1. Demo Video 
+Walk through your complete assignment, demonstrating the key features and user flows.
+2. App Build
+APK : Submit the Android application build.
+TestFlight : If possible, prepare and share an iOS TestFlight build.
+3. Submission Channel
+Join the Telegram group and submit your demo video, APK, and any other required links or files:
+https://t.me/+brkDpS8rYfBjNzll
+
+ Prizes and Opportunities
+ Hackathon Winner:
+The most amazing and user-friendly submission will receive a full-time job offer with a high CTC and base pay.
+ Certificates:
+Participants with functional MVPs, even if not winners, will receive certificates of appreciation if their submissions are liked by the Team.
+ Prizes:
+Depending on the submissions, prizes may be distributed to the top 3 winners. The prize amounts will be shared later.
+ Closing Note
+This hackathon is more than a challenge it’s a chance to shape your future while working on one of the most advanced projects out there.
+It’s a test for your dedication and obsession towards your role not just how much you know, but how much you’re willing to figure out.
+It’s a test of skills over resumes in the era of AI, you’re completely free to use any AI tool to do this assignment. What matters is how smartly you use it and how much ownership you show.
+We want to work with people who enjoy challenges, the ones who keep pushing even when things break, and don’t stop until it finally works.
+Once you’re onboard, you’ll be working with a team of geniuses and on some seriously exciting stuff. But before that, you’ve got to prove you’re the right fit for this role.
+So yeah thank you for being here, and all the very best for this Hackathon!!
+We’re looking forward to connecting/working with the person who can ultimately get recognized as an winner of this challenge.
+Also, to those who stay till the end and give it their best shot but ultimately don’t end up winning, we’ll be giving a Certificate of Appreciation for their hard work, consistency, determination, and dedication. Cheers and ALL THE BEST!!! .

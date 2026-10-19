@@ -1,0 +1,30 @@
+{
+  "name": "campaign-amplification-hackathon-shwetal",
+  "version": "1.0.0",
+  "description": "Supabase data foundation with permission-gated website demo records and Expo data services",
+  "scripts": {
+    "inspect": "node scripts/inspect-site.mjs",
+    "validate": "tsx scripts/validate.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx scripts/test-database.ts",
+    "import:data": "tsx import/import-to-supabase.ts",
+    "upload:media": "tsx import/upload-media.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "type": "module",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.118.0",
+    "dotenv": "^18.0.8",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "^0.5.10",
+    "@types/node": "^26.6.5",
+    "playwright": "^1.64.1",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "private": true
+}

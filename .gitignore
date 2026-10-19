@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+
+# Local credentials (keep the example configuration)
+.env
+.env.*
+!.env.example
+
+# Generated build output and caches
+dist/
+build/
+coverage/
+.expo/
+.cache/
+*.tsbuildinfo
+__pycache__/
+*.py[cod]
+.venv/
+
+# Logs and browser test output
+*.log
+playwright-report/
+test-results/
+
+# Local Supabase state
+supabase/.temp/
+supabase/.branches/
+
+# Administrative run summaries
+reports/import-summary*.json
+reports/upload-summary*.json
+
+# Editor and operating system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini

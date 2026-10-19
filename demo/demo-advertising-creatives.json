@@ -1,0 +1,50 @@
+[
+  {
+    "id": "f59e3566-8289-5c2f-90ad-57b493ec07c2",
+    "campaign_id": "f15eb368-49d2-5ad9-b777-f05cafc6d2f3",
+    "asset_id": "460677c8-e11a-5fd4-8e87-53906f2ecb8b",
+    "headline": "Eleven schools. Elevated lead. One deadline.",
+    "primary_text": "The state will pay to replace the pipes, but only if the district applies. Most have not. Here is why.",
+    "distribution_channel": null
+  },
+  {
+    "id": "28c2aa48-be7a-5675-80b4-8f8b0b3fc07a",
+    "campaign_id": "71cf3fd2-68c3-5d59-bc65-50a9a9143525",
+    "asset_id": "44c0ace3-4702-57a3-a261-688e29d64376",
+    "headline": "The buses still go where the jobs used to be.",
+    "primary_text": "Twenty-six thousand jobs. Two buses an hour. The redesign is written, it just needs you.",
+    "distribution_channel": null
+  },
+  {
+    "id": "863339f4-9e16-5f8e-bd93-afde35966cbe",
+    "campaign_id": "86080c63-d23e-5845-bb29-50b75125c8cb",
+    "asset_id": "4540a81b-a4d4-5d3a-99ba-58730434fc69",
+    "headline": "You own the combine. You do not own the password.",
+    "primary_text": "An eleven-day wait for a dealer technician, mid-harvest. Four states already fixed this.",
+    "distribution_channel": null
+  },
+  {
+    "id": "cb02cc29-9493-5436-8803-96e9cc333b0e",
+    "campaign_id": "ebad5379-ce0d-5a24-bfb6-af4988d6f9d1",
+    "asset_id": "60a535f5-b83d-50f5-afd3-67696c1f0897",
+    "headline": "Turned out at 7am into a freeze warning.",
+    "primary_text": "Nine cold-exposure calls a morning. Staying open costs $340. A transport costs more.",
+    "distribution_channel": null
+  },
+  {
+    "id": "f7c7fba6-5c5e-59a5-ba1d-5c0cf4682301",
+    "campaign_id": "b0fa249c-543c-566d-9aff-0d0a1514e205",
+    "asset_id": "53aabcae-cc29-5b1d-bb3e-eef203a1a264",
+    "headline": "Could you read the last ballot? Honestly?",
+    "primary_text": "Five of seven measures scored above college reading level. Nine states already fixed this.",
+    "distribution_channel": null
+  },
+  {
+    "id": "aeded181-d0c0-5c16-8986-4fd5807b234d",
+    "campaign_id": "e64909cf-e75e-5f50-a6cf-2aaff952a4d6",
+    "asset_id": "36106187-4c42-5a8c-ac17-1677f016eaf9",
+    "headline": "11C hotter, four blocks apart.",
+    "primary_text": "The canopy budget is split evenly by district. The heat is not spread evenly at all.",
+    "distribution_channel": null
+  }
+]
